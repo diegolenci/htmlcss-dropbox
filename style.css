@@ -1,3 +1,8 @@
+html{
+    font-family: sans-serif;
+}
+
+
 header{
     display: flex;
     margin-top: 20px;
@@ -19,3 +24,26 @@ header ul{
     background-color: rgb(15, 70, 237);
     color: white;
 }
+
+main{
+    display: flex;
+    margin-top: 20px;
+    height: 500px;
+    background-color: rgb(142, 164, 190);
+    justify-content: center;
+}
+
+.title-1{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 50px;
+    height: 120px;
+    font-size: 23px;
+}
+
+.immagine-1{
+    display: flex;
+    margin-top: 170px;
+    margin-right: 60px;
+}
+
