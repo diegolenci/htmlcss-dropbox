@@ -6,7 +6,7 @@ html{
 header{
     display: flex;
     margin-top: 20px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 
@@ -25,20 +25,20 @@ header ul{
     color: white;
 }
 
-main{
+section{
     display: flex;
     margin-top: 20px;
-    height: 500px;
     background-color: rgb(142, 164, 190);
     justify-content: center;
 }
 
 .title-1{
-    display: flex;
+    font-size: 22px;
+}
+.txt-box{    
     margin-top: 30px;
     margin-left: 50px;
-    height: 120px;
-    font-size: 23px;
+    font-size: 13px;
 }
 
 .immagine-1{
@@ -47,3 +47,40 @@ main{
     margin-right: 60px;
 }
 
+main{
+    height: 1000px;
+}
+
+.container-1{
+    display: flex;
+    padding-top: 40px;
+    justify-content: center;
+}
+
+.container-2{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-around;
+}
+
+.box{
+    border: 2px solid rgb(5, 5, 5);
+    padding: 7px;
+    text-align: start;
+    width: 280px;
+}
+
+.button-2{
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 10px;
+    border: hidden;
+    background-color: rgb(24, 82, 207);
+    color: white;
+}
+
+.acquista{
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
