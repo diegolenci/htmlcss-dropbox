@@ -35,16 +35,42 @@ section{
 .title-1{
     font-size: 22px;
 }
+
 .txt-box{    
+    display: flex;
     margin-top: 30px;
     margin-left: 50px;
     font-size: 13px;
+    flex-direction: column;
+    gap: 30px;
+    flex-basis: 30%;
+    
+}
+
+.text-1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.down-arrow{
+    font-size: 2rem;
+    margin-top: 40px;
 }
 
 .immagine-1{
     display: flex;
     margin-top: 170px;
     margin-right: 60px;
+    flex-basis: 70%;
+}
+
+.btn-prova{
+    margin-right: 120px;
+    padding: 5px;
+    background-color: rgb(24, 82, 207);
+    color: white;
+    border-style: hidden;
 }
 
 main{
@@ -67,13 +93,23 @@ main{
     border: 2px solid rgb(5, 5, 5);
     padding: 7px;
     text-align: start;
-    width: 280px;
+    width: 300px;
+    height: 600px;
+    
+}
+
+.simbolo{
+    border: 2px solid black;
+    text-align: center;
+    padding: 3px;
+    margin-bottom: 25px;
+    
 }
 
 .button-2{
-    padding: 2px;
-    padding-left: 5px;
-    padding-right: 10px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
     border: hidden;
     background-color: rgb(24, 82, 207);
     color: white;
@@ -83,4 +119,43 @@ main{
     display: flex;
     gap: 5px;
     margin-top: 10px;
+}
+
+
+.box-2{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    height: 200px;
+    width: 1155px;
+}
+
+.box-3{
+    width: 1155px;
+}
+
+.team{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-width: 1155;
+    padding-left: 30px;
+    padding: 5px;
+}
+
+
+
+
+.text-2{
+    margin-top: 20px;
+}
+
+.text-3{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.text-4{
+    padding: 10px;
 }
