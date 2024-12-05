@@ -126,7 +126,7 @@ main{
     display: flex;
     justify-content: space-between;
     border: 2px solid black;
-    height: 200px;
+    height: 250px;
     width: 1155px;
 }
 
@@ -159,3 +159,35 @@ main{
 .text-4{
     padding: 10px;
 }
+
+.container-3{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+.text-5{
+    padding: 40px;
+    padding-right: 250px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-partner{
+    padding: 8px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.container-4{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container-4 figure{
+    border: 2px solid red;
+    
+}
+ 
