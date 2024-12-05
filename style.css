@@ -186,8 +186,13 @@ main{
     gap: 20px;
 }
 
-.container-4 figure{
-    border: 2px solid red;
-    
+.operazioni-title{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
 }
- 
+
+.card-operazioni{
+    width: 250px;
+    padding-top: 30px;
+}
