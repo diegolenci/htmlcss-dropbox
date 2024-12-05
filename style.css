@@ -73,10 +73,6 @@ section{
     border-style: hidden;
 }
 
-main{
-    height: 1000px;
-}
-
 .container-1{
     display: flex;
     padding-top: 40px;
@@ -195,4 +191,48 @@ main{
 .card-operazioni{
     width: 250px;
     padding-top: 30px;
+}
+
+.container-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 350px;
+    padding-top: 100px;
+    gap: 30px;
+    width: 400px;
+}
+
+footer{
+    height: 380px;
+    background-color: black;
+    color: white;
+
+}
+
+.container-footer-colonne{
+    color: white;
+    padding: 80px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.container-footer-colonne ul{
+    list-style: none;
+}
+
+.container-footer-colonne ul strong{
+    font-size: 18px;
+}
+
+.lenguage{
+    padding-left: 120px;
+    padding-bottom: 20px;
+}
+
+.lenguage hr{
+    width: 100px;
 }
