@@ -33,7 +33,7 @@ section{
 }
 
 .title-1{
-    font-size: 22px;
+    font-size: 30px;
 }
 
 .txt-box{    
@@ -82,23 +82,29 @@ section{
 .container-2{
     display: flex;
     padding-top: 50px;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 50px;
 }
 
 .box{
-    border: 2px solid rgb(5, 5, 5);
+    border: 2px solid lightgray;
     padding: 7px;
     text-align: start;
     width: 300px;
-    height: 600px;
+    height: 650px;
     
 }
 
+a{
+    color: blue;
+}
+
 .simbolo{
-    border: 2px solid black;
+    border: 2px solid lightgray;
     text-align: center;
     padding: 3px;
     margin-bottom: 25px;
+
     
 }
 
@@ -121,11 +127,14 @@ section{
 .box-2{
     display: flex;
     justify-content: space-between;
-    border: 2px solid black;
+    border: 2px solid lightgray;
     height: 250px;
-    width: 1155px;
+    width: 1050px;
 }
 
+.fa-check{
+    color: rgb(0, 68, 255);
+}
 .box-3{
     width: 1155px;
 }
@@ -133,7 +142,7 @@ section{
 .team{
     display: flex;
     justify-content: center;
-    border: 2px solid black;
+    border: 2px solid lightgray;
     border-width: 1155;
     padding-left: 30px;
     padding: 5px;
@@ -162,9 +171,13 @@ section{
     padding: 80px;
 }
 
+.partner-image{
+    margin-left: 200px;
+}
+
 .text-5{
     padding: 40px;
-    padding-right: 250px;
+    padding-right: 260px;
     gap: 30px;
     display: flex;
     flex-direction: column;
